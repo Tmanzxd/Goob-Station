@@ -19,6 +19,6 @@ public sealed partial class SolutionInjectWhileEmbeddedComponent : BaseSolutionI
         ///The delay between each injection in seconds.
         ///</summary>
         [DataField]
-        public TimeSpan UpdateInterval = TimeSpan.FromSeconds(3);
+        public TimeSpan UpdateInterval = TimeSpan.FromSeconds(0); //Change to 0, Testing
 }
 
